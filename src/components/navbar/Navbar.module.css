@@ -1,0 +1,22 @@
+.nav {
+    grid-area: n;
+    background-color: #020F21;
+    height: 400px;
+    justify-content: space-between;
+}
+
+.item a {
+    text-decoration: none;
+     cursor: pointer;
+     color: white;
+}
+
+.item a:hover {
+    color: #8DB953;
+    transition: 1s;
+}
+
+a.active {
+    color: gold;
+
+}

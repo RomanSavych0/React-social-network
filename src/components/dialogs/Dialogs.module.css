@@ -1,0 +1,21 @@
+.dialogs{
+    display: grid;
+
+    grid-template-columns: 2fr 10fr;
+}
+
+.dialogsItems{
+    padding: 10px;
+color: white;
+}
+.messages{
+padding: 10px;
+}
+.messages .massage{
+color: white;
+}
+.item a {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}

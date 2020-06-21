@@ -1,0 +1,81 @@
+.userPhoto img {
+    width: 80px;
+    height: 80px;
+}
+
+.userPhoto {
+    /*grid-area: p;*/
+    /*border: 1px solid blue;*/
+    /*grid-column-start: 1;*/
+
+}
+
+.userItem {
+    display: grid;
+    grid-template-areas: "u l";
+    border-bottom: 20px solid white;
+    padding: 20px;
+    grid-area: userItem;
+
+}
+
+.usersWwrapper {
+
+}
+
+.usersData {
+    grid-area: u;
+    grid-column-start: 1;
+}
+
+.locationData {
+    grid-column-end: 1;
+    grid-area: l;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.selectedPage {
+    font-weight: bold;
+}
+
+.Pages {
+    display: flex;
+    cursor: pointer;
+    align-self: center;
+
+}
+.unfollowButton{
+    background-color   :#d71432;
+    color: white;
+    padding: 6px;
+    border-radius: 5px;
+    outline: none;
+}
+.followButton{
+    background-color: #015161;
+    color: white;
+    padding: 6px;
+    border-radius: 5px;
+    outline: none;
+}
+.loadMoreUsers{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    outline: none;
+}
+.loadMoreUsers :hover{
+     background-color:  #9cff20;
+    transition: 2s;
+     -webkit-box-shadow: -2px 7px 5px 0px rgba(0,0,0,0.75);
+     -moz-box-shadow: -2px 7px 5px 0px rgba(0,0,0,0.75);
+     box-shadow: -2px 7px 5px 0px rgba(0,0,0,0.75);
+}
+.loadMoreUsersButtonWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+background-color: white;
+}
