@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga&family=Roboto+Slab:wght@500&display=swap%27)');
+
+
 .app-wrapper {
     margin: 0 auto;
     display: grid;
@@ -8,13 +11,11 @@
     grid-template-rows: 80px 1fr;
     grid-template-columns: 2fr 10fr;
     grid-gap: 10px;
+    font-family: 'Lexend Giga', sans-serif;
 }
 
 .app-wrapper-content {
-
+background-color: whitesmoke;
     grid-area: c;
-    background-color: whitesmoke;
     color: black;
-
-
 }

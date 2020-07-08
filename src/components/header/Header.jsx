@@ -1,11 +1,21 @@
 import React from "react";
-import clases from  './Header.module.css'
+import clases from './Header.module.css'
+import logoImage from '../../asserts/images/imgonline-com-ua-Transparent-backgr-u6cHGz8cAG.png'
+import {NavLink} from "react-router-dom";
 
-let Header=()=>{
-    return(
+let Header = (props) => {
+    return (
         <header className={clases.header}>
-        <img src="https://media.istockphoto.com/vectors/confetti-circle-background-party-background-vector-illustration-vector-id1043717942" />
-      </header>
+            <div className={clases.loginBlock}>
+                {props.isAuth ?
+                    <div>{props.login}
+                        <button onClick={props.logout}>Sign out</button>
+                    </div>
+                    : <NavLink to={'/login'}> Login</NavLink>}
+            </div>
+
+            <img src={logoImage}/>
+        </header>
 
     )
 };

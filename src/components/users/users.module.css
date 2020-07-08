@@ -19,7 +19,7 @@
 
 }
 
-.usersWwrapper {
+.usersWrapper {
 
 }
 
@@ -45,37 +45,51 @@
     align-self: center;
 
 }
-.unfollowButton{
-    background-color   :#d71432;
+
+.unfollowButton {
+    background-color: #d71432;
     color: white;
     padding: 6px;
     border-radius: 5px;
     outline: none;
 }
-.followButton{
+
+.followButton {
     background-color: #015161;
     color: white;
     padding: 6px;
     border-radius: 5px;
     outline: none;
 }
-.loadMoreUsers{
+
+.loadMoreUsers {
     background-color: green;
     color: white;
     padding: 10px;
     border-radius: 8px;
     outline: none;
 }
-.loadMoreUsers :hover{
-     background-color:  #9cff20;
+
+.loadMoreUsers :hover {
+    background-color: #9cff20;
     transition: 2s;
-     -webkit-box-shadow: -2px 7px 5px 0px rgba(0,0,0,0.75);
-     -moz-box-shadow: -2px 7px 5px 0px rgba(0,0,0,0.75);
-     box-shadow: -2px 7px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px 7px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px 7px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: -2px 7px 5px 0px rgba(0, 0, 0, 0.75);
 }
-.loadMoreUsersButtonWrapper{
+
+.loadMoreUsersButtonWrapper {
     display: flex;
     align-items: center;
     justify-content: center;
-background-color: white;
+    background-color: white;
+}
+
+.followButton :disabled{
+    background-color: grey;
+}
+
+.unfollowButton :disabled {
+    background-color: grey;
+
 }
